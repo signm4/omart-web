@@ -7,6 +7,28 @@
       padding: 20px;
     }
 
+    /* The navbar container */
+    .topnav {
+      overflow: hidden;
+      background-color: #F1F1F1;
+    }
+
+    /* Navbar links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: orange;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Links - change color on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
     body{
       background-image: white;
       text-align: center;
@@ -50,14 +72,27 @@
   </style>
 
   
-  <head>
-    <!-- to add a external css do this -> <link rel="stylesheet" href="newpage.css"> -->
+<!-- Traditional way to do header to add a external css do this -> <link rel="stylesheet" href="newpage.css">  -->
+<!-- <head>
     <meta charset="utf-8">
     <h1>Welcome to Orange Market</h1>
     <title>Orange Market | Austin, Texas</title>
-  </head>
+  </head> -->
+
+  <!-- to add formatting from .header in <style> use this method with the div class -->
+  <div class="header">
+    <h1>Welcome to Orange Market</h1>
+    <title>Orange Market | Austin, Texas</title>
+  </div>
 
   <body>
+
+    <!-- Adding a Navigation bar -->
+    <div class="topnav">
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+    </div>
     
     <img src="omlogo.jpeg" alt="My test image">
     <!-- <p class="insta">this is <a href= "http://www.instagram.com/omartatx" target="_orange"><strong>Orange Market</strong></a></p> -->

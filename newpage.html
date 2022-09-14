@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <style>
+  <!-- <style>
     .header {
       background-color: #F1F1F1;
       text-align: left;
@@ -48,10 +48,12 @@
       color:rgb(199, 147, 50);
     }
     h1{
+      display: inline-block;
       font-family: noteworthy;
       font-size:70px ;
       color: rgb(199, 147, 50);
       text-align: left;
+      line-height: 25%;
     }
     h2{
       font-family: noteworthy;
@@ -69,7 +71,7 @@
         .insta{
       color: red;
     }
-    /* <!-- using css attributes w3schools --> */
+    /*  using css attributes w3schools */
     a[target=_orange]{
       background-color: orange;
     }
@@ -88,7 +90,7 @@
     div:hover hover1{
       display:inline;
     }
-  </style>
+  </style> -->
 
   
 <!-- Traditional way to do header to add a external css do this -> <link rel="stylesheet" href="newpage.css">  -->
@@ -98,9 +100,12 @@
     <title>Orange Market | Austin, Texas</title>
   </head> -->
 
+  <link rel="stylesheet" href="newpage.css">
+
   <!-- to add formatting from .header in <style> use this method with the div class -->
   <div class="header">
-    <h1>Welcome to Orange Market</h1>
+    <a href=newpage.html><img src="omlogo.jpeg" width="150px" alt="My test image"></a>
+    <h1> Orange Market</h1>
     <h2><i>"We are West Campus"</i></h2>
     <title>Orange Market | Austin, Texas</title>
   </div>
@@ -109,9 +114,10 @@
 
     <!-- Adding a Navigation bar -->
     <div class="topnav">
-      <a href="#">History</a>
+      <a href="history.html">History</a>
       <a href="#">Requests</a>
       <a href="#">FAQ</a>
+      <a href="http://www.instagram.com/omartatx">Instagram</a>
     </div>
     
     <img src="omlogo.jpeg" alt="My test image">
@@ -129,7 +135,7 @@
     </ul>
 
     <div class="footer">
-      <f1>All rights reserved Orange Market 2022 ©. All products mentioned on this website are subject to price and availibility. For more information Contact Orange Market. </f1>
+      <f1>All rights reserved Orange Market © 2022. All products mentioned on this website are subject to price and availibility. For more information Contact Orange Market. </f1>
     </div>
 
   </body>

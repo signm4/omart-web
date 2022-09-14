@@ -1,0 +1,19 @@
+
+    body{
+        background-image: white;
+        text-align: center;
+    }
+    p{
+    font: noteworthy;
+    color:rgb(199, 147, 50);
+    }
+    ul{
+    font: noteworthy;
+    color:rgb(199, 147, 50);
+    }
+    h1{
+    font-family: noteworthy;
+    font-size:70px ;
+    color: rgb(199, 147, 50);
+    text-align: center;
+    }

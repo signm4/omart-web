@@ -5,10 +5,12 @@
   padding: 20px;
 }
 
-.footer {
+.footer { 
   background-color: #F1F1F1;
-  text-align: left;
-  padding: 20px;
+  text-align: center;
+  padding: 10px;
+  /* position:fixed;
+  bottom: 0; */
 }
 
 /* The navbar container */
@@ -88,3 +90,9 @@ hover1 {
 div:hover hover1{
   display:inline;
 }
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: right;
+    padding: 10px;
+  }

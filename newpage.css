@@ -9,8 +9,8 @@
   background-color: #F1F1F1;
   text-align: center;
   padding: 10px;
-  /* position:fixed;
-  bottom: 0; */
+  position:fixed;
+  bottom: 0;
 }
 
 /* The navbar container */

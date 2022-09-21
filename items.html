@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<link rel="stylesheet" href="newpage.css">
+
+<h2>Items</h2>
+
+<p id="demo"></p>
+
+<script>
+// Create an object:
+const coke = {
+	name: "coke",
+	type:"soda",
+	size:["20oz", "1ltr"],
+	color:"white",
+	flavors:["Regular", " Zero", " Diet", " Cherry"],
+	location:{
+    	city:"Austin",
+        state:"TX"
+    },
+    mymethod : function() {
+    	return this.type + ", It is a " + this.name + " " + this.flavors[0] + " comes in sizes of "+ this.size;
+    },
+};
+    
+//car.name = "Zee";
+//car.mymethod() = car.name() + " " + car.type();
+
+// Display some data from the object:
+//document.getElementById("demo").innerHTML = "The car type is " + car.type;
+document.getElementById("demo").innerHTML = "This item is a " + coke.mymethod();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+<!-- take in 2 inputs -->
+<input type="text" id="input1" value="Enter Text for first input">
+<input type="text" id="input2" value="Enter Text for second input">
+
+<p>Click the "Try it" button to get the text in the text field.</p>
+
+<!-- when clicked, run myFunction() -->
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo1"></p>
+
+<script>
+function myFunction() {
+    // takes in value and stores in to variable x and y
+  var x = document.getElementById("input1").value;
+  var y = document.getElementById("input2").value;
+
+    const myNaiveUrl = `https://www.example.dev/?input1=${x}&input2=${y}`;
+    document.getElementById("demo1").innerHTML = myNaiveUrl;
+}
+</script>

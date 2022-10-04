@@ -1,0 +1,121 @@
+
+.header {
+    background-color: blueviolet;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .footer { 
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+  }
+  
+  /* The navbar container */
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: burlywood;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* side bar */
+  .sidebar {
+    height: 700px;
+    width: 200px; /* Set the width of the sidebar */
+    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+    /* z-index: 1; Stay on top */
+    top: 1;
+    right: 0;
+    background-color: black;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  
+  
+  body{
+    background-image: black;
+    text-align: center;
+  }
+  p{
+    font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(134, 134, 13);
+  }
+  ul{
+    font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:indianred;
+  }
+  h1{
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:70px ;
+    color: salmon;
+    text-align: left;
+    line-height: 25%;
+  }
+  h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:27px ;
+    color: rgb(216, 216, 27);
+    text-align: left;
+  }
+  h3{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size:50px ;
+      color: yellowgreen;
+      text-align: left;
+    }
+  
+  f1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    color: lightsalmon;
+  }
+  
+      .insta{
+    color: orange;
+  }
+  /* <!-- using css attributes w3schools --> */
+  a[target=_purple]{
+    background-color: purple;
+  }
+  
+  /* Hover over link color change PSEUDO CLASSES https://www.w3schools.com/css/css_pseudo_classes.asp*/
+  a:hover{
+    color:green;
+  }
+  
+  hover1 {
+    display:contents;
+    background-color: purple;
+    padding: 20px;
+  }
+  
+  div:hover hover1{
+    display:inline;
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+      float: right;
+      padding: 10px;
+    }

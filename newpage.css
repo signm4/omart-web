@@ -1,7 +1,8 @@
 
 .header {
-  background-color: #F1F1F1;
-  text-align: left;
+  /* background-color: #F1F1F1; */
+  background-color: #f8971f;
+  text-align: center;
   padding: 20px;
 }
 
@@ -14,17 +15,37 @@
   left: 0;
 }
 
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 /* The navbar container */
 .topnav {
+  font-family: "Libre Baskerville", serif;
   overflow: hidden;
-  background-color: #dcd6d0;
+  background-color: #bf5700;
 }
 
 /* Navbar links */
 .topnav a {
+  font-family: "Libre Baskerville", serif;
   float: left;
-  display: block;
-  color: orange;
+  display: #bf5700;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -56,29 +77,29 @@ body{
   text-align: center;
 }
 p{
-  font: noteworthy;
+  font: 'Libre Baskerville', serif;
   color:rgb(199, 147, 50);
 }
 ul{
-  font: noteworthy;
+  font: 'Libre Baskerville', serif;
   color:rgb(199, 147, 50);
 }
-h1{
+h2{
   display: inline-block;
-  font-family: noteworthy;
-  font-size:70px ;
+  font-family: 'Libre Baskerville', serif;
+  font-size:60px ;
   color: rgb(199, 147, 50);
   text-align: left;
   line-height: 25%;
 }
-h2{
-  font-family: noteworthy;
+h3{
+  font-family: 'Libre Baskerville', serif;
   font-size:27px ;
   color: rgb(199, 147, 50);
-  text-align: left;
+  text-align: center;
 }
-h3{
-    font-family: noteworthy;
+h4{
+    font-family: 'Libre Baskerville', serif;
     font-size:50px ;
     color: rgb(199, 147, 50);
     text-align: left;

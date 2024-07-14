@@ -20,12 +20,16 @@ header .container {
 }
 
 header .logo {
-    max-width: 100px;
-    margin-bottom: 10px;
+    max-width: 200px; /* Adjust logo size to 200px */
+    margin: 0 auto; /* Center logo */
+    display: block; /* Ensures the logo takes up the full width of its container for proper alignment */
+    padding-bottom: 10px; /* Space below the logo before the line */
+    border-bottom: 2px solid white; /* Adding the white line under the logo */
 }
 
 header h1 {
-    margin: 0;
+    margin-top: 20px; /* Adding space above the title to separate it from the logo line */
+    margin-bottom: 0;
     font-size: 2.5em;
 }
 
@@ -78,4 +82,14 @@ footer {
 
 footer p {
     margin: 0;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #f8971f;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

@@ -10,6 +10,7 @@ header {
     background-color: #f8971f;
     color: white;
     padding: 20px 0;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,19 +24,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row; /* Ensures horizontal layout on larger screens */
 }
 
 .header-content {
     display: flex;
     align-items: center;
+    position: relative; 
 }
 
 .logo {
     max-width: 200px;
     margin-right: 20px;
     border-right: 2px solid white; /* Vertical line after the logo */
-    padding-right: 20px;
+    padding-right: 20px; /* Padding to space out the line from the logo */
 }
 
 header h1 {
@@ -82,7 +83,6 @@ main {
 .locations ul {
     list-style: none;
     padding: 0;
-    margin-left: 20px; /* Adds left margin to create a gap */
 }
 
 .locations li {
@@ -90,24 +90,10 @@ main {
 }
 
 .map-container {
-    width: 100%;
-    text-align: center;
+    text-align: right; /* Aligns the map to the right */
     margin-top: 20px;
-}
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .map-container {
-        order: 2; /* Ensures the map appears after the location details on smaller screens */
-        width: 100%;
-    }
-
-    .locations {
-        order: 1;
-    }
+    display: block;
+    overflow: hidden; /* Ensures no overflow of the map outside its container */
 }
 
 footer {
